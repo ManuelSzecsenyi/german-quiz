@@ -1,8 +1,9 @@
 <?php
 
+use App\Http\Controllers\QuizController;
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'welcome');
+Route::view('/', 'home');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
@@ -12,4 +13,8 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
-require __DIR__.'/auth.php';
+Route::get('/quiz', [QuizController::class, 'start'])
+    ->middleware(['auth', 'verified'])
+    ->name('quiz.start');
+
+require __DIR__ . '/auth.php';
