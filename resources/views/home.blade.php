@@ -4,7 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gladlio</title>
+    <title>Gladlio: Goethe & telc Exam Preparation | German Language Mastery</title>
+
+    <!-- SEO Meta Description Tag -->
+    <meta name="description"
+          content="Master Goethe & telc exams with Gladlio's expert-crafted content and adaptive learning. Efficient, enjoyable German language learning for guaranteed exam success.">
+
+    <!-- SEO Meta Keywords Tag -->
+    <meta name="keywords"
+          content="Goethe exam preparation, telc exam preparation, German language mastery, German exam courses online, Goethe test training, telc test coaching, Adaptive learning technology German, German language learning platform, Online German courses Goethe exam, Efficient German exam preparation, German language proficiency exams, Gladlio Goethe telc success">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ asset('storage/favicon/favicon-48x48.png') }}" sizes="48x48"/>
+    <link rel="icon" type="image/svg+xml" href="{{ asset('storage/favicon/favicon.svg') }}"/>
+    <link rel="shortcut icon" href="{{ asset('storage/favicon/favicon.ico') }}"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('storage/favicon/apple-touch-icon.png') }}"/>
+    <meta name="apple-mobile-web-app-title" content="Gladlio"/>
+    <link rel="manifest" href="{{ asset('storage/favicon/site.webmanifest') }}"/>
+
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -340,7 +357,7 @@
                                           stroke-width="7.08"></path>
                                 </svg>
                             </div>
-                            Smart suggestions
+                            Smart Suggestions
                         </dt>
                         <dd class="mt-2 text-base leading-7 text-gray-600">
                             Receive recommendations that adapt as you progress, keeping your learning relevant and
@@ -404,7 +421,7 @@
             <div
                 class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
                 <h2 class="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                    Stay Informed About Our Launch!
+                    Stay informed about our launch!
                 </h2>
                 <p class="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
                     We're actively working on bringing our vision to life, and we want you to be part of it! Sign up now
