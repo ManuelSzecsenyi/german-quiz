@@ -95,7 +95,7 @@
                                     "Hallo" to success!
                                 </p>
                                 <div class="mt-10 flex items-center gap-x-6">
-                                    <a href="#faq"
+                                    <a href="#access"
                                        class="rounded-md bg-emerald-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600">
                                         Get early access
                                     </a>
@@ -416,7 +416,7 @@
     -->
 
     <!-- Signup -->
-    <div class="bg-white py-16 sm:py-12">
+    <div id="access" class="bg-white py-16 sm:py-12">
         <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div
                 class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
@@ -455,7 +455,7 @@
 
 
     <!-- FAQ -->
-    <div id="faq" class="bg-white">
+    <div class="bg-white">
         <div class="mx-auto max-w-7xl divide-y divide-gray-900/10 px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
             <h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
             <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
