@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html class="scroll-smooth" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -78,7 +78,7 @@
                                     "Hallo" to success!
                                 </p>
                                 <div class="mt-10 flex items-center gap-x-6">
-                                    <a href="#"
+                                    <a href="#faq"
                                        class="rounded-md bg-emerald-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600">
                                         Get early access
                                     </a>
@@ -146,13 +146,13 @@
     <div class="bg-white py-24 sm:py-16">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:text-center">
-                <h2 class="text-base font-semibold leading-7 text-emerald-600">Improve your confidence</h2>
+                <h2 class="text-base font-semibold leading-7 text-emerald-600">Master German from A1 to C1</h2>
                 <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                    Supercharge Your German Skills
+                    Unlock your potential with expert-crafted preparation tailored for Goethe and telc exams
                 </p>
                 <p class="mt-6 text-lg leading-8 text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
+                    Whether you're just starting or looking to refine your skills, Gladlio offers comprehensive
+                    resources to guide you every step of the way.
                 </p>
             </div>
             <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
@@ -179,10 +179,11 @@
                                           stroke-width="7.08"></path>
                                 </svg>
                             </div>
-                            Personalized Learning Path
+                            Expert Guidance
                         </dt>
                         <dd class="mt-2 text-base leading-7 text-gray-600">
-                            Tailored to your unique needs and goals, ensuring you focus on what matters most.
+                            Our materials are designed by experienced educators who understand the exam formats and
+                            requirements.
                         </dd>
                     </div>
                     <div class="relative pl-16">
@@ -238,11 +239,11 @@
                                           stroke-width="7.08"></path>
                                 </svg>
                             </div>
-                            Smart suggestions
+                            Tailored Learning Paths
                         </dt>
                         <dd class="mt-2 text-base leading-7 text-gray-600">
-                            Receive recommendations that adapt as you progress, keeping your learning relevant and
-                            engaging.
+                            Progress from A1 to C1 at your own pace with structured lessons that adapt to your learning
+                            style
                         </dd>
                     </div>
                     <div class="relative pl-16">
@@ -270,10 +271,10 @@
                                         stroke-width="7.08"></path>
                                 </svg>
                             </div>
-                            Comprehensive examp prep
+                            Engaging Content
                         </dt>
                         <dd class="mt-2 text-base leading-7 text-gray-600">
-                            Everything you need for Goethe and TELC success, all in one place.
+                            Enjoy interactive exercises, quizzes, and real-life scenarios that make learning enjoyable
                         </dd>
                     </div>
                     <div class="relative pl-16">
@@ -294,10 +295,11 @@
                                         stroke-width="7.08"></path>
                                 </svg>
                             </div>
-                            Efficient progress
+                            Smart suggestions
                         </dt>
                         <dd class="mt-2 text-base leading-7 text-gray-600">
-                            Learn faster with our proven methods designed to maximize your study time.
+                            Receive recommendations that adapt as you progress, keeping your learning relevant and
+                            engaging.
                         </dd>
                     </div>
                 </dl>
@@ -305,7 +307,7 @@
         </div>
     </div>
 
-    <!-- Testamonial -->
+    <!-- Testamonial
     <section class="bg-white py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
@@ -349,17 +351,21 @@
             </div>
         </div>
     </section>
+    -->
 
     <!-- Signup -->
     <div class="bg-white py-16 sm:py-12">
         <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div
                 class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:py-32">
-                <h2 class="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">Get
-                    notified when we’re launching.</h2>
+                <h2 class="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                    Stay Informed About Our Launch!
+                </h2>
                 <p class="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-300">
-                    We are building this vision right now. Signup to be one of the first one to know when we are out and
-                    test the app before everybody else.
+                    We're actively working on bringing our vision to life, and we want you to be part of it! Sign up now
+                    to be among the first to know when we launch. You'll also get exclusive early access to test the app
+                    before anyone else. Don’t miss out on this opportunity to shape your German learning journey!
+
                 </p>
                 <div class="mx-auto mt-10 flex max-w-md gap-x-4">
                     <a target="_blank"
@@ -387,7 +393,7 @@
 
 
     <!-- FAQ -->
-    <div class="bg-white">
+    <div id="faq" class="bg-white">
         <div class="mx-auto max-w-7xl divide-y divide-gray-900/10 px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
             <h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900">Frequently asked questions</h2>
             <dl class="mt-10 space-y-8 divide-y divide-gray-900/10">
@@ -397,9 +403,11 @@
                     </dt>
                     <dd class="mt-4 lg:col-span-7 lg:mt-0">
                         <p class="text-base leading-7 text-gray-600">
-                            We are currently building the base platform but planning a public Beta in Q1 2025. Signup in
-                            the mailing list to try out the app as soon as we are ready and get the latest news about
-                            our progress.
+                            We're currently developing our core platform and aim to launch a public Beta in Q1 2025.
+                            Sign up for our beta program to be among the first to experience Gladlio and receive updates
+                            on our progress. Early adopters will have the opportunity to shape the future of German
+                            language learning!
+
                         </p>
                     </dd>
                 </div>
@@ -410,7 +418,10 @@
                     </dt>
                     <dd class="mt-4 lg:col-span-7 lg:mt-0">
                         <p class="text-base leading-7 text-gray-600">
-                            You can use the App for free while in Beta. Pricing for the launch will be announced later.
+                            During the Beta phase, Gladlio will be completely free to use. This gives you full access to
+                            our features and content while we refine the app based on user feedback. We'll announce our
+                            pricing structure closer to the official launch, ensuring transparent and competitive
+                            options for all learners.
                         </p>
                     </dd>
                 </div>
@@ -421,24 +432,41 @@
                     </dt>
                     <dd class="mt-4 lg:col-span-7 lg:mt-0">
                         <p class="text-base leading-7 text-gray-600">
-                            We are working with german teachers and students to bring the best possible learning content
-                            on our application.
+                            Quality is our top priority. We collaborate with certified German examiners and native
+                            speakers to create and curate the best possible learning content. Our team of experts
+                            ensures that all materials are accurate, up-to-date, and aligned with official Goethe and
+                            telc exam standards.
+
                         </p>
                     </dd>
                 </div>
 
                 <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
                     <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
-                        Are you associated with Goethe or TELC?
+                        Are you associated with Goethe or telc?
                     </dt>
                     <dd class="mt-4 lg:col-span-7 lg:mt-0">
                         <p class="text-base leading-7 text-gray-600">
-                            No. We are a group of language loving people who want to help others achieve their german
-                            language goals.
+                            While Gladlio is an independent platform, our content creators and teachers are certified by
+                            Goethe and telc as expert examiners. This ensures that our materials and methodologies are
+                            in line with the latest examination standards and requirements set by these respected
+                            institutions.
                         </p>
                     </dd>
                 </div>
 
+                <div class="pt-8 lg:grid lg:grid-cols-12 lg:gap-8">
+                    <dt class="text-base font-semibold leading-7 text-gray-900 lg:col-span-5">
+                        How does Gladlio differ from other language learning apps?
+                    </dt>
+                    <dd class="mt-4 lg:col-span-7 lg:mt-0">
+                        <p class="text-base leading-7 text-gray-600">
+                            Gladlio specializes in preparing learners for Goethe and telc exams, offering a focused
+                            approach to German language mastery. Our adaptive learning technology, combined with
+                            expert-crafted content, provides a unique, efficient, and enjoyable path to exam success.
+                        </p>
+                    </dd>
+                </div>
             </dl>
         </div>
     </div>
